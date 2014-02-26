@@ -165,14 +165,14 @@ margin-bottom: 1em;
   font-size: 22px;
   color: #2E4875;
   margin-top: 1.5em;
-  text-shadow: 2px 2px 0px #A5BADD;
+  text-shadow: 2px 2px 1px #A5BADD;
 }
 #mainCont H2 {
 font-family: 'Tahoma','Arial', sans-serif;
 font-size: 20px;
 margin-top: 1em;
   color: #2E4875;
-text-shadow: 2px 2px 0px #A5BADD;
+text-shadow: 1px 1px 0px #A5BADD;
 }
 #sideCont {
   float: right;
