@@ -241,11 +241,12 @@ textarea {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
+  /*border: 1px solid #2E4875;*/
   text-shadow: 1px 1px 0px #666666;
   font-family: 'Tahoma','Arial', sans-serif;
   color: #ffffff;
   font-size: 12px;
-  background: #A5BADD;
+  background: #6585BA;
   padding: 8px 15px;
   text-decoration: none;
   transition: .25s;
