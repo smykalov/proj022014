@@ -28,6 +28,7 @@ a {
   padding: 15px 3% 5px;
   overflow: hidden;
   width: 100%;
+  font-family: 'Exo 2','Tahoma','Arial', sans-serif;
   /*border: 2px solid red;*/
 }
     .top1 p{
@@ -100,7 +101,7 @@ a {
     }
 .header-nav {
     display: block;
-    /*font-family: 'Exo 2','Tahoma','Arial', sans-serif;*/
+    font-family: 'Exo 2','Tahoma','Arial', sans-serif;
     font-weight: bold;
     text-align: center;
     margin: 20px 0;
@@ -170,14 +171,14 @@ margin-bottom: 1em;
 /*font-family: 'Verdana','Tahoma','Arial', sans-serif;*/
 }
 #mainCont H1 {
-  /*font-family: 'Exo 2','Tahoma','Arial', sans-serif;*/
+  font-family: 'Exo 2','Tahoma','Arial', sans-serif;
   font-size: 22px;
   color: #A75254;
   margin-top: 1.5em;
   /*text-shadow: 2px 2px 0px #e0e1e3;*/
 }
 #mainCont H2 {
-/*font-family: 'Exo 2','Tahoma','Arial', sans-serif;*/
+font-family: 'Exo 2','Tahoma','Arial', sans-serif;
 font-size: 20px;
 margin-top: 1em;
 color: #A75254;
@@ -185,6 +186,7 @@ color: #A75254;
 }
 #sideCont {
   float: right;
+  font-family: 'Exo 2','Tahoma','Arial', sans-serif;
   width: 30%;
   /*border: 2px solid red;*/
   text-align: right;
@@ -277,11 +279,12 @@ textarea {
 }
 #footer {
   padding: 15px 3% 100px;
+  font-family: 'Exo 2','Tahoma','Arial', sans-serif;
   /*border: 3px solid red;*/
 }
 .footer-nav {
     display: block;
-    font-family: 'Tahoma','Arial', sans-serif;
+    /*font-family: 'Tahoma','Arial', sans-serif;*/
     /*font-weight: bold;*/
     text-align: center;
     padding-bottom: 25px;
@@ -294,12 +297,15 @@ textarea {
     /*border: 1px solid red;*/
 }
 .footer-nav a {
-  font-size: 10px;
+  font-size: 11px;
   text-align: center;
   color: white;
   padding-top: 15px;
   padding: 10px 10px;
   /*border: 1px solid red;*/
+}
+.footer-nav a:hover {
+  color: #e0e1e3;
 }
 #footer p{
   color: white;
