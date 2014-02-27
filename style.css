@@ -15,7 +15,7 @@ body {
   margin:0 auto;
   height: 100%;
   min-height:100%;
-  font-family: 'Tahoma','Arial', sans-serif;
+  font-family: 'Exo 2','Tahoma','Arial', sans-serif;
   font-size: 14px;
   /*border: 2px solid blue;*/
 }
@@ -100,7 +100,7 @@ a {
     }
 .header-nav {
     display: block;
-    font-family: 'Tahoma','Arial', sans-serif;
+    font-family: 'Exo 2','Tahoma','Arial', sans-serif;
     font-weight: bold;
     text-align: center;
     margin: 20px 0;
@@ -154,7 +154,7 @@ a {
   width: 70%;
   /*border: 2px solid red;*/
   padding: 0px 3% 40px 3%;
-  font-family: 'Tahoma','Arial', sans-serif;
+  font-family: 'Exo 2','Tahoma','Arial', sans-serif;
 }
 #mainCont ol {
   padding: 5px 40px;
@@ -167,14 +167,14 @@ margin-top: 0.5em;
 margin-bottom: 1em;
 }
 #mainCont H1 {
-  font-family: 'Tahoma','Arial', sans-serif;
+  font-family: 'Exo 2','Tahoma','Arial', sans-serif;
   font-size: 22px;
   color: #A75254;
   margin-top: 1.5em;
   /*text-shadow: 2px 2px 0px #e0e1e3;*/
 }
 #mainCont H2 {
-font-family: 'Tahoma','Arial', sans-serif;
+font-family: 'Exo 2','Tahoma','Arial', sans-serif;
 font-size: 20px;
 margin-top: 1em;
 color: #A75254;
