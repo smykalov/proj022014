@@ -10,8 +10,8 @@ html {
   height: 100%;
 }
 body {
-  background: #fff;
-  max-width: 960px;
+  background: #e0e0e0;
+  width: 960px;
   margin:0 auto;
   height: 100%;
   min-height:100%;
@@ -24,14 +24,14 @@ a {
   color: inherit;
 }
 .top1 {
-  background: white;
+  background: #e0e0e0;
   padding: 15px 3% 5px;
   overflow: hidden;
   width: 100%;
   /*border: 2px solid red;*/
 }
     .top1 p{
-      color: #2E4875;
+      color: #A75254;
       line-height: 0.1em;
       font-size: 12px;
     }
@@ -40,37 +40,39 @@ a {
       margin-bottom: 20px;
       float: left;
       text-align: left;
+      /*border: 2px solid red;*/
     }
     .addresTop {
       float: right;
       text-align: right;
+      /*border: 2px solid red;*/
     }
 
 .headerDecor {
   position: relative;
   width: 100;
-  height: 150px; 
-  background-color: #6585BA;
+  height: 154px; 
+  background-color: white;
   padding: 0;
 }
     .logoAPM {
       position: absolute;
       margin-top: 10px;
-      left: 20px;
+      left: 45px;
     }
     .headerTXT {
       position: absolute;
       text-align: center;
       left: 210px;
       margin-top: 17px;
-      color: white;
+      color: #777777;
     }
       .headerTXT h2 {
         font-size: 18px;
         font-style: normal;
         text-transform: uppercase;
         letter-spacing: 0.07em;
-        text-shadow: 2px 1px 2px #2E4875;
+        text-shadow: 2px 1px 0px #e0e1e3;
         margin-bottom: 0.15em;
       }
       .headerTXT p {
@@ -78,38 +80,27 @@ a {
         font-style: normal;
         /*text-transform: uppercase;*/
         letter-spacing: 0.03em;
-        text-shadow: 1px 1px 2px #2E4875;
+        text-shadow: 1px 1px 0px #e0e1e3;
       }
       .headerTXT h1 {
         font-size: 24px;
         font-style: normal;
         text-transform: uppercase;
         letter-spacing: 0.05em;
-        text-shadow: 2px 2px 2px #2E4875;
+        text-shadow: 2px 2px 0px #e0e1e3;
         margin-top: 0.15em;
       }
     .building {
       position: absolute;
       right: 0;
     }
-    .blueLine {
-    margin-top: 6px;
-    width: 100;
-    height: 10px; 
-    background-color: #2E4875;
-    }
 .header-nav {
     display: block;
     font-family: 'Tahoma','Arial', sans-serif;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 14px;
+    margin: 16px 0;
     /*border: 2px solid red;*/
-    }
-    .headerBut {
-      width: 140px;
-      height: 52px;
-      border: 2px solid black;
     }
     .header-nav li {
       display: inline;
@@ -120,26 +111,27 @@ a {
       text-align: center;
       padding-top: 15px;
       padding: 10px 20px;
-      border-radius: 8px;
+      border-radius: 2px;
       transition: .25s;
     }
     .header-nav a:hover {
-      background-color: #2E4875;
-      color: white;
+      background-color: white;
+      color: #A75254;
+      text-shadow: 1px 2px 1px #e0e0e0;
     }
     .dosLi, .servLi, .formLi, .contLi {
-      color: #2E4875;
+      color: white;
+      text-shadow: 1px 2px 1px #7d4d4f;
+      background-color: #A75254;
     }
     .glavLi {
-      background-color: #2E4875;
-      color: white;
-    }
-    .glavLi a{
-      color: white;
-      font-size: 20px;
+      color: #A75254;
+      background-color: white;
     }
 #content {
-  padding-top: 40px;
+  background-color: white;
+  padding-top: 20px;
+  /*border: 2px solid green;*/
   /*padding-bottom:100px;    Height of the footer element */
 }
 #mainCont {
@@ -148,7 +140,6 @@ a {
   /*border: 2px solid red;*/
   padding: 0px 3% 40px 3%;
   font-family: 'Tahoma','Arial', sans-serif;
-  /*font-size: 14px;*/
 }
 #mainCont ol {
   padding: 5px 40px;
@@ -163,16 +154,16 @@ margin-bottom: 1em;
 #mainCont H1 {
   font-family: 'Tahoma','Arial', sans-serif;
   font-size: 22px;
-  color: #2E4875;
+  color: #A75254;
   margin-top: 1.5em;
-  text-shadow: 2px 2px 0px #A5BADD;
+  text-shadow: 2px 2px 0px #e0e1e3;
 }
 #mainCont H2 {
 font-family: 'Tahoma','Arial', sans-serif;
 font-size: 20px;
 margin-top: 1em;
-  color: #2E4875;
-text-shadow: 1px 1px 0px #A5BADD;
+color: #A75254;
+text-shadow: 1px 1px 0px #e0e1e3;
 }
 #sideCont {
   float: right;
@@ -180,18 +171,17 @@ text-shadow: 1px 1px 0px #A5BADD;
   /*border: 2px solid red;*/
   text-align: right;
   font-size: 12px;
-  color: #2E4875;
+  color: #777777;
   padding: 100px 20px;
 }
 .sideContLink {
   padding: 15px 20px;
-  border-top: 2px solid #2E4875;
+  border-top: 2px solid #A75254;
 }
 #formaSv {
-  border-bottom: 2px solid #2E4875;
+  border-bottom: 2px solid #A75254;
 }
 .leaveMessage {
-  /*position: relative;*/
   padding-top: 12px; 
   text-align: right;
 }
@@ -199,39 +189,38 @@ text-shadow: 1px 1px 0px #A5BADD;
   border-radius: 4px;
   margin-bottom: 5px;
   line-height: 28px;
-  /*padding: 2px 10px;*/
   list-style:none;
 }
 .leaveMessage input[type="text"] {
     width: 200px;
-    color: #2E4875;
+    color: #A75254;
     font-size: 12px;
     font-family: 'Tahoma','Arial', sans-serif;
-    background-color: #A5BADD;
-    border: 1px solid #6585BA;
+    background-color: #e0e1e3;
+    border: 1px solid #777777;
     text-align: left;
     padding: 5px;
 }
 ::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #2E4875;
+    color:    #A75254;
     font-family: 'Tahoma','Arial', sans-serif;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #2E4875;
+    color:    #A75254;
     font-family: 'Tahoma','Arial', sans-serif;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #2E4875;
+    color:    #A75254;
     font-family: 'Tahoma','Arial', sans-serif;
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #2E4875;
+    color:    #A75254;
     font-family: 'Tahoma','Arial', sans-serif;
    }
 textarea {
-  border: 1px solid #6585BA;
-  background-color: #A5BADD;
-  color: #2E4875;
+  border: 1px solid #777777;
+  background-color: #e0e1e3;
+  color: #A75254;
   padding: 5px;
   width: 200px;
   font-family: 'Tahoma','Arial', sans-serif;
@@ -245,19 +234,18 @@ textarea {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  /*border: 1px solid #2E4875;*/
   text-shadow: 1px 1px 0px #666666;
   font-family: 'Tahoma','Arial', sans-serif;
   color: #ffffff;
   font-size: 12px;
-  background: #6585BA;
+  background: #A75254;
   padding: 8px 15px;
   text-decoration: none;
   transition: .25s;
 }
 
 .leaveMessageSubmitButton:hover {
-  background: #2e4875;
+  background: #6D1B1D;
   text-decoration: none;
 }
 #footer {
@@ -267,7 +255,7 @@ textarea {
   /*position:absolute;*/
   bottom:0;
   left:0;
-  background:#2E4875;
+  background: #A75254;
 }
 #footer {
   padding: 15px 3% 100px;
