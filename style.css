@@ -54,11 +54,10 @@ a {
   height: 154px; 
   background-color: white;
   padding: 0;
- /* box-shadow:
+   box-shadow:
   1px 0px rgb(203,203,203), 1px 1px rgb(134,134,134),
   2px 1px rgb(202,202,202), 2px 2px rgb(133,133,133),
-  3px 2px rgb(201,201,201), 3px 3px rgb(132,132,132),
-  4px 3px rgb(200,200,200), 4px 4px rgb(131,131,131);*/
+  3px 2px rgb(201,201,201), 3px 3px rgb(132,132,132);
 }
     .logoAPM {
       position: absolute;
@@ -144,12 +143,10 @@ a {
 #content {
   background-color: white;
   padding-top: 20px;
-  /*  box-shadow:
+    box-shadow:
   1px 0px rgb(203,203,203), 1px 1px rgb(134,134,134),
   2px 1px rgb(202,202,202), 2px 2px rgb(133,133,133),
-  3px 2px rgb(201,201,201), 3px 3px rgb(132,132,132),
-  4px 3px rgb(200,200,200), 4px 4px rgb(131,131,131);*/
-  /*border: 2px solid green;*/
+  3px 2px rgb(201,201,201), 3px 3px rgb(132,132,132);
   /*padding-bottom:100px;    Height of the footer element */
 }
 #mainCont {
