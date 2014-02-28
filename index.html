@@ -16,7 +16,6 @@
  			</section>
  			<section class="addresTop">
  				<p>адрес: <strong>г. Москва, Новинский Бульвар, д.1/2</strong></p>
- 				<br>
  				<p>телефон: <strong>+7(903)173-13-99</strong></p>
  			</section>
  		<!-- 	<section class="telephoneTop">
@@ -29,8 +28,8 @@
      				<h2>Юридический стаж 15 лет</h2>
      				<p>Министерство Юстиции Российской Федерации</p>
      				<p>Адвокатская Палата г.Москвы</p>
-     				<h1>Адвокат</h1>
-     				<h1>Юридические услуги</h1>
+     				<h1>Адвокат <br>
+     				 Юридические услуги</h1>
      		</div>
         <img class="building" src="imgs/mosgorsud.jpg" alt="Московский Городской Суд">
  		</div>
@@ -74,16 +73,19 @@
     		</div>
     		<div class="sideContLink" id="formaSv"><a href="form.html"><strong>ОБРАТНАЯ СВЯЗЬ:</strong><br>
     		По вопросам оказания юридической помощи вы можете обратиться ко мне, заполнив данную форму или позвонив мне по телефону:<br> <strong>+7(903)173-13-99</strong></a>
-    		<form class="leaveMessage">
+    		<form class="leaveMessage" method="post" action="mail.php">
         <ul>
           <li>
-            <input type="text" id="wrName" placeholder="Ваше Имя">
+            <input type="text" name="name" tabindex="1" placeholder="Ваше Имя" required>
           </li>
           <li>
-            <input type="text" id="wrEmail" placeholder="Email">
+            <input type="text" name="email" tabindex="2" placeholder="Email">
+          </li>
+           <li>
+            <input type="text" name="tel" tabindex="3" placeholder="Телефон" required>
           </li>
           <li>
-            <textarea placeholder="Напишите Ваше сообщение" id="wrMess" cols="24" rows="6"></textarea>
+            <textarea name="mess" tabindex="4" placeholder="Напишите Ваше сообщение" id="wrMess" cols="24" rows="6"></textarea>
           </li>
           <li class="leaveMessageSubmit">
             <button class="leaveMessageSubmitButton" type="submit">Отправить</button>
@@ -106,11 +108,11 @@
 		<p>© 2014 BEST-ADVOKAT.SU</p> 
 		<p>Коллегия адвокатов г. Москвы «Новый Арбат»</p>
 		<p>121099, Москва, Новинский Бульвар, д.1/2</p>
-		<p>Эл. почта: <a href="mailto:77advocat@gmail.com">77advocat@gmail.com</a></p>
+		<p>Эл. почта: <a href="mailto:info@best-advokat.su">info@best-advokat.su</a></p>
 		<p><strong>Адвокат Сергей Пряхин</strong></p>
 	</div>
 	<div class="footerTel">
-		<p>+7(903)173-13-99</p> 
+		<p>тел: +7(903)173-13-99</p> 
 	</div>
 </footer>
 </div>
